@@ -25,7 +25,7 @@ The `dimension` of grid and `probability` of mines is determined according to th
       - ![#FF9E36](https://via.placeholder.com/15/FF9E36/000000?text=+) `MASTER`
       - ![#01D5BF](https://via.placeholder.com/15/01D5BF/000000?text=+) `Cell is uncovered`
       - ![#E63629](https://via.placeholder.com/15/E63629/000000?text=+) `Mine`
-      
+    
 ## Configuration of the Grid
 #### 1. Dimension of the Grid
 <table>
@@ -64,6 +64,13 @@ The `dimension` of grid and `probability` of mines is determined according to th
     <td> (Total 33 mines in 81 cells) </td>
   </tr>
 </table>
+
+## Scoring
+Your score is calculated as: **`(c * 100) / (d - ceil(d * p))`**
+ - Here, 
+    - `c` - cells unlocked which doesn't have mines
+    - `d` - total cells
+    - `p` - probability of mines
 
 ## Approach Used
 The grid is implemented as a `Sparse Matrix` where `mines` are the `non-zero` elements and `other cells` are the `zero` elements. This Sparse Matrix is represented in memory using `2-D ArrayList` based on `coordinate list` method where row and column of mines location is stored. This thereby saves `^((1 - 2 * p) * 100)%` of memory. The locations of non-zero elements in the Sparse Matrix is filled using the `random` function present in the `Kotlin Random Class`.
