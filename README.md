@@ -77,5 +77,24 @@ The grid is implemented as a `Sparse Matrix` where `mines` are the `non-zero` el
 
 ^ `(p - probability of mines)` -> the `result` is `approximate` value
 
+## Screenshots of the App
+<table>
+  <tr>
+    <td> <img src = "screenshots/main_menu.jpg" height="380" width="210"> </td>
+    <td> <img src = "screenshots/rules.jpg" height="380" width="210"> </td>
+    <td> <img src = "screenshots/difficulty_menu.jpg" height="380" width="210"> </td>
+  </tr>
+  <tr>
+    <td> <img src = "screenshots/newbie.jpg" height="380" width="210"> </td>
+    <td> <img src = "screenshots/newbie_scorecard.jpg" height="380" width="210"> </td>
+    <td> <img src = "screenshots/specialist.jpg" height="380" width="210"> </td>
+  </tr>
+  <tr>
+    <td> <img src = "screenshots/specialist_scorecard.jpg" height="380" width="210"> </td>
+    <td> <img src = "screenshots/master.jpg" height="380" width="210"> </td>
+    <td> <img src = "screenshots/master_scorecard.jpg" height="380" width="210"> </td>
+  </tr>
+</table>
+
 **_Note:_ I developed this game using C++ which is a command-line application and this app is an upgradation to it with a good UI. You can find the C++ code here :point_right: [Click Here](https://github.com/kiruba-r11/Mine-Eluder)**
 
