@@ -23,7 +23,7 @@ The `dimension` of grid and `probability` of mines is determined according to th
       - ![#01AF1C](https://via.placeholder.com/15/01AF1C/000000?text=+) `NEWBIE`
       - ![#029583](https://via.placeholder.com/15/029583/000000?text=+) `SPECIALIST`
       - ![#FF9E36](https://via.placeholder.com/15/FF9E36/000000?text=+) `MASTER`
-      - ![#01D5BF](https://via.placeholder.com/15/01D5BF/000000?text=+) `Cell is uncovered`
+      - ![#01D5BF](https://via.placeholder.com/15/01D5BF/000000?text=+) `Cell is uncovered (Safe)`
       - ![#E63629](https://via.placeholder.com/15/E63629/000000?text=+) `Mine`
     
 ## Configuration of the Grid
