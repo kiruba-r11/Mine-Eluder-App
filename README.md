@@ -98,3 +98,4 @@ The grid is implemented as a `Sparse Matrix` where `mines` are the `non-zero` el
 
 **_Note:_ I developed this game using C++ which is a command-line application and this app is an upgradation to it with a good UI. You can find the C++ code here :point_right: [Click Here](https://github.com/kiruba-r11/Mine-Eluder)**
 
+**_Note:_ This repository is in working process to implement a `new feature`**
