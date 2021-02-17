@@ -24,7 +24,7 @@ The `dimension` of grid and `probability` of mines is determined according to th
       - ![#029583](https://via.placeholder.com/15/029583/000000?text=+) `SPECIALIST`
       - ![#FF9E36](https://via.placeholder.com/15/FF9E36/000000?text=+) `MASTER`
       - ![#01D5BF](https://via.placeholder.com/15/01D5BF/000000?text=+) `Cell is uncovered (Safe)`
-      - ![#E63629](https://via.placeholder.com/15/E63629/000000?text=+) `Mine`
+      - ![#E63629](https://via.placeholder.com/15/E63629/000000?text=+) `Mine (also '-' is used)`
     
 ## Configuration of the Grid
 #### 1. Dimension of the Grid
@@ -81,21 +81,24 @@ The grid is implemented as a `Sparse Matrix` where `mines` are the `non-zero` el
 <table>
   <tr>
     <td> <img src = "screenshots/main_menu.jpg" height="380" width="210"> </td>
-    <td> <img src = "screenshots/rules.jpg" height="380" width="210"> </td>
+    <td> <img src = "screenshots/cheat_code_menu.jpg" height="380" width="210"> </td>
     <td> <img src = "screenshots/difficulty_menu.jpg" height="380" width="210"> </td>
   </tr>
   <tr>
     <td> <img src = "screenshots/newbie.jpg" height="380" width="210"> </td>
+    <td> <img src = "screenshots/newbie_cheat.jpg" height="380" width="210"> </td>
     <td> <img src = "screenshots/newbie_scorecard.jpg" height="380" width="210"> </td>
-    <td> <img src = "screenshots/specialist.jpg" height="380" width="210"> </td>
   </tr>
   <tr>
+    <td> <img src = "screenshots/specialist.jpg" height="380" width="210"> </td>
+    <td> <img src = "screenshots/specialist_cheat.jpg" height="380" width="210"> </td>
     <td> <img src = "screenshots/specialist_scorecard.jpg" height="380" width="210"> </td>
+  </tr>
+  <tr>
     <td> <img src = "screenshots/master.jpg" height="380" width="210"> </td>
+    <td> <img src = "screenshots/master_cheat.jpg" height="380" width="210"> </td>
     <td> <img src = "screenshots/master_scorecard.jpg" height="380" width="210"> </td>
   </tr>
 </table>
 
 **_Note:_ I developed this game using C++ which is a command-line application and this app is an upgradation to it with a good UI. You can find the C++ code here :point_right: [Click Here](https://github.com/kiruba-r11/Mine-Eluder)**
-
-**_Note:_ This repository is in working process to implement a `new feature`**
