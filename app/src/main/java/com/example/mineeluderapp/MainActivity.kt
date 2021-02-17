@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main5)
 
         playButton.setOnClickListener {
-            val i = Intent(this, MainActivity4::class.java)
+            val i = Intent(this, MainActivity8::class.java)
             startActivity(i)
         }
 

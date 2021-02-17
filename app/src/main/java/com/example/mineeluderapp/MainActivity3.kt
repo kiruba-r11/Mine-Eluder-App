@@ -3,11 +3,40 @@ package com.example.mineeluderapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import cellsUncovered
 import gridSide
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_main3.*
+import kotlinx.android.synthetic.main.activity_main3.button1
+import kotlinx.android.synthetic.main.activity_main3.button10
+import kotlinx.android.synthetic.main.activity_main3.button11
+import kotlinx.android.synthetic.main.activity_main3.button12
+import kotlinx.android.synthetic.main.activity_main3.button13
+import kotlinx.android.synthetic.main.activity_main3.button14
+import kotlinx.android.synthetic.main.activity_main3.button15
+import kotlinx.android.synthetic.main.activity_main3.button16
+import kotlinx.android.synthetic.main.activity_main3.button17
+import kotlinx.android.synthetic.main.activity_main3.button18
+import kotlinx.android.synthetic.main.activity_main3.button19
+import kotlinx.android.synthetic.main.activity_main3.button2
+import kotlinx.android.synthetic.main.activity_main3.button20
+import kotlinx.android.synthetic.main.activity_main3.button21
+import kotlinx.android.synthetic.main.activity_main3.button22
+import kotlinx.android.synthetic.main.activity_main3.button23
+import kotlinx.android.synthetic.main.activity_main3.button24
+import kotlinx.android.synthetic.main.activity_main3.button25
+import kotlinx.android.synthetic.main.activity_main3.button3
+import kotlinx.android.synthetic.main.activity_main3.button4
+import kotlinx.android.synthetic.main.activity_main3.button5
+import kotlinx.android.synthetic.main.activity_main3.button6
+import kotlinx.android.synthetic.main.activity_main3.button7
+import kotlinx.android.synthetic.main.activity_main3.button8
+import kotlinx.android.synthetic.main.activity_main3.button9
+import kotlinx.android.synthetic.main.activity_main3.nextButton
+import kotlinx.android.synthetic.main.activity_main3.scoreTextView
 import noOfMines
 import placeMine
 import score
@@ -35,7 +64,17 @@ class MainActivity3 : AppCompatActivity() {
         cellsUncovered = 0
         score = 0.0
 
-//        printMine(arrayOfButtons , mines)
+        if(validCheatCode) {
+            switchMaster.visibility = View.VISIBLE
+            switchMaster.setOnCheckedChangeListener { buttonView, isChecked ->
+                if(isChecked) {
+                    printMine(arrayOfButtons , mines)
+                }
+                else {
+                    unPrintMine(arrayOfButtons , mines)
+                }
+            }
+        }
 
         arrayOfButtons[0][0].setOnClickListener {
             makeMove(arrayOfButtons , mines , 0 , 0)
@@ -325,7 +364,13 @@ class MainActivity3 : AppCompatActivity() {
 
     private fun printMine(arrayOfButtons: Array <Array <Button>>, mines: ArrayList <ArrayList <Int>>) {
         for(index in mines.indices) {
-            arrayOfButtons[mines[index][0] - 1][mines[index][1] - 1].text = "M"
+            arrayOfButtons[mines[index][0] - 1][mines[index][1] - 1].text = "-"
+        }
+    }
+
+    private fun unPrintMine(arrayOfButtons: Array <Array <Button>> , mines: ArrayList <ArrayList <Int>>) {
+        for(index in mines.indices) {
+            arrayOfButtons[mines[index][0] - 1][mines[index][1] - 1].text = ""
         }
     }
 

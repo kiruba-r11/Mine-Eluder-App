@@ -3,6 +3,7 @@ package com.example.mineeluderapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import cellsUncovered
@@ -61,7 +62,17 @@ class MainActivity2 : AppCompatActivity() {
         cellsUncovered = 0
         score = 0.0
 
-//        printMine(arrayOfButtons , mines)
+        if(validCheatCode) {
+            switchSpecialist.visibility = View.VISIBLE
+            switchSpecialist.setOnCheckedChangeListener { buttonView, isChecked ->
+                if(isChecked) {
+                    printMine(arrayOfButtons , mines)
+                }
+                else {
+                    unPrintMine(arrayOfButtons , mines)
+                }
+            }
+        }
 
         arrayOfButtons[0][0].setOnClickListener {
             makeMove(arrayOfButtons , mines , 0 , 0)
@@ -246,7 +257,13 @@ class MainActivity2 : AppCompatActivity() {
 
     private fun printMine(arrayOfButtons: Array <Array <Button>>, mines: ArrayList <ArrayList <Int>>) {
         for(index in mines.indices) {
-            arrayOfButtons[mines[index][0] - 1][mines[index][1] - 1].text = "M"
+            arrayOfButtons[mines[index][0] - 1][mines[index][1] - 1].text = "-"
+        }
+    }
+
+    private fun unPrintMine(arrayOfButtons: Array <Array <Button>> , mines: ArrayList <ArrayList <Int>>) {
+        for(index in mines.indices) {
+            arrayOfButtons[mines[index][0] - 1][mines[index][1] - 1].text = ""
         }
     }
 

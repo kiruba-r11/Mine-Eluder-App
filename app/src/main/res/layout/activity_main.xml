@@ -34,6 +34,20 @@
             android:gravity="center"
             android:layout_margin="8dp">
 
+            <Switch
+                android:id="@+id/switchNewbie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                android:switchPadding="10dp"
+                android:thumbTint="@color/green"
+                android:trackTint="@color/teal1"
+                android:text="Show Mines"/>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -49,7 +63,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
                 <Button
                     android:id="@+id/button2"
                     android:layout_width="0dp"
@@ -58,7 +72,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
                 <Button
                     android:id="@+id/button3"
                     android:layout_width="0dp"
@@ -67,7 +81,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
                 <Button
                     android:id="@+id/button4"
                     android:layout_width="0dp"
@@ -76,7 +90,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
                 <Button
                     android:id="@+id/button5"
                     android:layout_width="0dp"
@@ -85,7 +99,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
 
             </LinearLayout>
             <LinearLayout
@@ -103,7 +117,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
                 <Button
                     android:id="@+id/button7"
                     android:layout_width="0dp"
@@ -112,7 +126,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
                 <Button
                     android:id="@+id/button8"
                     android:layout_width="0dp"
@@ -121,7 +135,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
                 <Button
                     android:id="@+id/button9"
                     android:layout_width="0dp"
@@ -130,7 +144,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
                 <Button
                     android:id="@+id/button10"
                     android:layout_width="0dp"
@@ -139,7 +153,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
 
             </LinearLayout>
             <LinearLayout
@@ -157,7 +171,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
                 <Button
                     android:id="@+id/button12"
                     android:layout_width="0dp"
@@ -166,7 +180,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
                 <Button
                     android:id="@+id/button13"
                     android:layout_width="0dp"
@@ -175,7 +189,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
                 <Button
                     android:id="@+id/button14"
                     android:layout_width="0dp"
@@ -184,7 +198,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
                 <Button
                     android:id="@+id/button15"
                     android:layout_width="0dp"
@@ -193,7 +207,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
 
             </LinearLayout>
             <LinearLayout
@@ -211,7 +225,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
                 <Button
                     android:id="@+id/button17"
                     android:layout_width="0dp"
@@ -220,7 +234,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
                 <Button
                     android:id="@+id/button18"
                     android:layout_width="0dp"
@@ -229,7 +243,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
                 <Button
                     android:id="@+id/button19"
                     android:layout_width="0dp"
@@ -238,7 +252,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
                 <Button
                     android:id="@+id/button20"
                     android:layout_width="0dp"
@@ -247,7 +261,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
 
             </LinearLayout>
             <LinearLayout
@@ -265,7 +279,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
                 <Button
                     android:id="@+id/button22"
                     android:layout_width="0dp"
@@ -274,7 +288,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
                 <Button
                     android:id="@+id/button23"
                     android:layout_width="0dp"
@@ -283,7 +297,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
                 <Button
                     android:id="@+id/button24"
                     android:layout_width="0dp"
@@ -292,7 +306,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
                 <Button
                     android:id="@+id/button25"
                     android:layout_width="0dp"
@@ -301,7 +315,7 @@
                     android:layout_margin="2dp"
                     android:backgroundTint="@color/green"
                     android:textStyle="bold"
-                    android:textSize="16sp"/>
+                    android:textSize="24sp"/>
 
             </LinearLayout>
 
