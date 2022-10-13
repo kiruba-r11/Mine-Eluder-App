@@ -17,7 +17,8 @@ The `dimension` of grid and `probability` of mines is determined according to th
       - `NEWBIE`
       - `SPECIALIST`
       - `MASTER`
-      
+
+<!---
 4. Colours used and its meaning 
 
       - ![#01AF1C](https://via.placeholder.com/15/01AF1C/000000?text=+) `NEWBIE`
@@ -25,6 +26,7 @@ The `dimension` of grid and `probability` of mines is determined according to th
       - ![#FF9E36](https://via.placeholder.com/15/FF9E36/000000?text=+) `MASTER`
       - ![#01D5BF](https://via.placeholder.com/15/01D5BF/000000?text=+) `Cell is uncovered (Safe)`
       - ![#E63629](https://via.placeholder.com/15/E63629/000000?text=+) `Mine (also '-' is used)`
+--->
     
 ## Configuration of the Grid
 #### 1. Dimension of the Grid
